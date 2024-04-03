@@ -2,5 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: black;
+  background: lightcoral;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 35px;
+  
+}
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li {
+  display: inline-block;
+  align-items: center;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.nav-left .logo {
+  width: 200px;
+}
+.nav-right .pro-pic {
+  width: 80px;
+  border-radius: 50%;
+  padding-left: 25px;
+}
+.nav-right .search-box {
+  padding-right: 10px;
+}
+
+.search-box {
+  background: #efefef;
+  width: 350px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-box input {
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  outline: none;
+  border: 0;
+}
+.search-box img {
+  width: 28px;
+  background-color: transparent;
+}
+.main{
+  height: 700px;
 }
