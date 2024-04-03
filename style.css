@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -56,4 +56,127 @@ nav {
 }
 .main{
   height: 700px;
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: lightgreen;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+.nav-left ,.nav-right{
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li{
+  display: inline-block;
+  list-style: none;
+  cursor: pointer;
+}
+  .logo{
+  width: 200px;
+}
+.nav-left ul li{
+  padding-left: 40px;
+}
+.pro-pic{
+  width: 80px;
+  border-radius: 50%;
+  padding-left: 30px;
+}
+.search-box{
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  
+}
+.search-box input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+  
+}
+.search-box img{
+  width: 25px;
+}
+.pop-up{
+  width: 350px;
+  height:400px;
+  background-color: lightcyan;
+  margin-left: 70%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.profile {
+  display:flex; 
+
+}
+.profile img{
+  width: 40px;
+  border-radius: 50%;
+}
+.pro-inf{
+  padding-left: 20px;
+  
+
+}
+.pro-inf h4{
+  letter-spacing: 4px;
+  padding-bottom: 5px;
+}
+.pro-inf a{
+  text-decoration: none;
+  
+
+}
+.bor{
+  padding-top: 20px;
+}
+.feedback img{
+  width: 40px;
+  border-radius: 50%;
+}
+.feedback{
+  padding-top: 10px;
+  display: flex;
+}
+.pro-inf-1 h4{
+  letter-spacing: 4px;
+  padding-bottom: 5px;
+}
+.pro-inf-1 a{
+  text-decoration: none;
+  font-size: 12px;
+  
+
+}
+.pro-inf-1{
+  padding-left: 20px;
+  
+
+}
+.first{
+  display: flex;
+
+}
+
+.first h4{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.last img{
+  width: 40px;
+  padding-top: 10px;
 }
