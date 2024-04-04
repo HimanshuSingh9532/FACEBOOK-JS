@@ -57,7 +57,7 @@ nav {
 .main{
   height: 700px;
 } */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -65,121 +65,182 @@ nav {
 body {
   background: lightgreen;
 }
-nav{
+nav {
+  height: 70px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 50px;
+  padding: 10px 50px;
+  background: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-.nav-left ,.nav-right{
+.nav-left,
+.nav-right {
   display: flex;
   align-items: center;
 }
-.nav-left ul li{
+.nav-left ul li {
   display: inline-block;
   list-style: none;
   cursor: pointer;
 }
-  .logo{
+.logo {
   width: 200px;
 }
-.nav-left ul li{
+.nav-left ul li {
   padding-left: 40px;
 }
-.pro-pic{
+.pro-pic {
   width: 80px;
   border-radius: 50%;
   padding-left: 30px;
 }
-.search-box{
+.search-box {
   width: 350px;
   background: white;
   border-radius: 20px;
   display: flex;
   align-items: center;
   padding: 5px 15px;
-  
 }
-.search-box input{
+.search-box input {
   width: 100%;
   background: transparent;
   border: 0;
   outline: 0;
   padding-left: 10px;
-  
 }
-.search-box img{
+.search-box img {
   width: 25px;
 }
-.pop-up{
+.pop-up {
   width: 350px;
-  height:400px;
+  height: 400px;
   background-color: lightcyan;
   margin-left: 70%;
   border-radius: 10px;
   padding: 20px;
 }
 .profile {
-  display:flex; 
-
+  display: flex;
 }
-.profile img{
+.profile img {
   width: 40px;
   border-radius: 50%;
 }
-.pro-inf{
+.pro-inf {
   padding-left: 20px;
-  
-
 }
-.pro-inf h4{
+.pro-inf h4 {
   letter-spacing: 4px;
   padding-bottom: 5px;
 }
-.pro-inf a{
+.pro-inf a {
   text-decoration: none;
-  
-
 }
-.bor{
+.bor {
   padding-top: 20px;
 }
-.feedback img{
+.feedback img {
   width: 40px;
   border-radius: 50%;
 }
-.feedback{
+.feedback {
   padding-top: 10px;
   display: flex;
 }
-.pro-inf-1 h4{
+.pro-inf-1 h4 {
   letter-spacing: 4px;
   padding-bottom: 5px;
 }
-.pro-inf-1 a{
+.pro-inf-1 a {
   text-decoration: none;
   font-size: 12px;
-  
-
 }
-.pro-inf-1{
+.pro-inf-1 {
   padding-left: 20px;
-  
-
 }
-.first{
+.first {
   display: flex;
-
 }
 
-.first h4{
+.first h4 {
   padding-top: 20px;
   padding-left: 20px;
 }
-.last img{
+.last img {
   width: 40px;
   padding-top: 10px;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+.left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+.right-sidebar{
+    background: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+.main-content{
+    flex-basis: 47%;
+}
+.link{
+    display: flex;
+    padding: 15px 20px;
+}
+.link img{
+    width: 30px;
+    
+}
+.link h3{
+    padding-left: 30px;
+}
+.link-1 a{
+    text-decoration: none;
+   
+
+}
+.link-1 h3{
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.link-1 a:hover{
+  color: red;
+}
+hr{
+    padding-top: 10px;
+
+}
+.link-2{
+    display: flex;
+    padding: 15px 20px ;
+}
+.link-2 img{
+    width: 30px;
+}
+.link-2 h3{
+    padding-left: 20px;
+}
+.shortcut h3{
+    padding-left: 20px;
+} 
+
+
+
 
 
 
